@@ -1,4 +1,17 @@
-@echo Saint Hack Script
+rem ***************************************************************************
+rem * Author: Atiqur Rahman
+rem * Desc:
+rem *	Imagine you are connected to an ISP where they have provided you an IP address to connect to their network
+rem *	They perform validation whether you are a legal by checking MAC address
+rem *	
+rem *	In such scenario it is easy to inspect all MAC addresses used in this network and exploit them
+rem * 	This Script performs these operation
+rem **** SAOSLab is not responsible for legal implications, we develop this for network diagnostics
+
+rem * %scriptpath% is the location of where you put these scripts
+rem ***************************************************************************
+
+@echo MAC Spoofing Tool
 if [%scriptpath%] equ [] @(
 	echo Please define scriptpath and then try again.
 	goto exit

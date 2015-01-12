@@ -1,9 +1,10 @@
 #	Author:	Atiqur Rahman
-#	Genre:	Fun with Unix (Solaris)
-#	Contact:	unix9n@gmail.com
+#	Genre:	Originally developed on Unix (Solaris)
+#				However, should run in Linux without modification
 
-# Future plan
-# Check download size
+#	Usage:	Provide your download links in a text file named queue.txt and run this script
+# Feature request
+# 	Check download size, match and verify
 
 # constants
 

@@ -1,15 +1,21 @@
+rem ***************************************************************************
+rem * Author: Atiqur Rahman
+rem * Desc:
+rem *	Imagine you have connection two networks one has the network prefix: 192.168.16
+rem *	and other is 192.168.10
+rem *	You want a simple script to switch between these two networks so that you don't have to
+rem *		manually go to Network Adapter List, Right click properties and enter one by one each time you want to switch
+rem *	This script modifies ethernet interface configuration
+rem * 	    This Script changes the IP configuration of Local Area Connection
+rem *
+rem * call with argument 16: to enable prefix 192.168.16
+rem * call with argument 10: to enable prefix 192.168.10
+rem * call with switchisp: to switch between prefix
+rem ***************************************************************************
+
 @echo off
 set prefix1=192.168.16
 set prefix2=192.168.10
-
-rem ***************************************************************************
-rem * This Script changes the IP configuration of VoIPTA
-rem * on: to enable prefix 192.168.16
-rem * on: to enable prefix %prefix2%0
-rem ***************************************************************************
-
-rem echo SA Hack Script
-rem echo.
 
 if [%1] equ [] (
 	echo Configuration mode in cl argument missing. Available options:
