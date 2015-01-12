@@ -1,0 +1,1 @@
+@start cmd /k mysql_init.cmd

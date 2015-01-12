@@ -1,0 +1,2 @@
+@rem echo %CD%
+@cd

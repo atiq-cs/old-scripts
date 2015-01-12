@@ -1,0 +1,1 @@
+@start cmd /k SVNDEV_init.cmd

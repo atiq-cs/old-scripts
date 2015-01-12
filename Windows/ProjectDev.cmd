@@ -1,0 +1,1 @@
+@start cmd /k Project_init.cmd

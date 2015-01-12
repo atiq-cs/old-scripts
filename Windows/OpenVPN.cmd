@@ -1,0 +1,1 @@
+@start cmd /k OpenVPN_init.cmd
