@@ -1,6 +1,6 @@
-#	Author:	Atiqur Rahman
+#	Author:	Atiq Rahman
 #	Genre:	Originally developed on Unix (Solaris)
-#				However, should run in Linux without modification
+#		However, should run in Linux without modification
 
 #	Usage:	Provide your download links in a text file named queue.txt and run this script
 # Feature request
