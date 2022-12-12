@@ -1,8 +1,10 @@
 <#
 .SYNOPSIS
-  Remote Connetion Tool
+  Remote Connetion Tool, activate VPN using PanGPS and connect using `mstsc`
 .DESCRIPTION
   Supports a few actions for connecting to remove workstation and facilitate checking status.
+  Note: dependency on Palo Alto Network VPN Tool and Miscrosoft TSC
+
 .PARAMETER Command
   Specifies what to do. Currently, two options are available,
   1. connect
@@ -15,7 +17,7 @@
   To check status,
   rdp.ps1 status
 
-  Fix internet status in Windoes,
+  Fix internet status in Windows,
   rdp.ps1 NetStatusFix
 
 .NOTES
