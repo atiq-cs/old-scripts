@@ -9,4 +9,4 @@ Some components are derived from other projects of iQubit Inc.
 
 
 **Details on Specific Scripts**  
-Look at history paper document instead.
+Look at paper document instead for files history.

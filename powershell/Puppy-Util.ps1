@@ -21,7 +21,9 @@
   Puppy-Util -a enable -si sp -ud L
 
 .NOTES
-  some dup code from bottom removed
+  Some dup code from bottom removed.
+
+  tag: linux, puppy linux, fedora
 #>
 
 Param(
