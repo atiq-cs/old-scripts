@@ -3,7 +3,7 @@
   Download youtube video
 .DESCRIPTION
   Date: 04/27/2014
-  Utlize /get_video endpoint to download video
+  Utilize /get_video endpoint to download video
 
 .EXAMPLE
   List-Process

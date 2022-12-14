@@ -3,7 +3,7 @@
   Find out the ATA device's new IP with hostname "VOIP_TA1S1O.mshome.net"
 .DESCRIPTION
   Date: 12/22/2011
-  Utlize ICMP Requests and Response (as heart beat) to know when the device comes back alive
+  Utilize ICMP Requests and Response (as heart beat) to know when the device comes back alive
   Response return object contains the new IP
   And Open the Web CMS of the device on Google Chrome
 

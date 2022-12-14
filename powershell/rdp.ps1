@@ -29,7 +29,7 @@
 
 #>
 
-param( [string]$Command = 'connect' )
+param( [string] $Command = 'connect' )
 
 # Global Vars
 $VPNServiceName = 'PanGPS'
