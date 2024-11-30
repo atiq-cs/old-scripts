@@ -144,6 +144,7 @@ function ResizeConsole([string] $title, [int] $history_size, [int] $width, [int]
   $cUI.BufferSize = $b #>
   # Sometimes, Window Size and buffer size conflict because window size cannot be bigger than buffer size, swapping the statements help
   # Seems like it also requires fixing the console.lnk shortcut in the system
+  #   shortcut ops moved here: 'apply-settings.ps1', https://github.com/atiq-cs/OldScripts/wiki/Misc-Scripts
   (Get-Host).UI.RawUI.BufferSize = New-Object System.Management.Automation.Host.Size -Property @{Width=$width; Height=$history_size}
   (Get-Host).UI.RawUI.WindowSize = New-Object System.Management.Automation.Host.Size -Property @{Width=$width; Height=$height}
 

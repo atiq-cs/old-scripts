@@ -2,7 +2,7 @@
 .SYNOPSIS
   Convert lossless flac audio files to mpeg4 audio format
 .DESCRIPTION
-  Date: 12/31/2012
+  Date: 12-31-2012
   Utilizes Windows Forms, Invokes from Powershell
 
 .EXAMPLE
